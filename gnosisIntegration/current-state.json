@@ -10,7 +10,7 @@
       "id": "",
       "name": "ACME",
       "address": {
-        "city": "Gent",
+        "city": "Paris",
         "country": "BE",
         "extendedAddress": "",
         "postalCode": "9000",
@@ -19,9 +19,9 @@
       },
       "contactInfo": {
         "tel": "",
-        "email": "wouter@powerhouse.inc"
+        "email": "REDACTED"
       },
-      "country": "BE",
+      "country": "FR",
       "paymentRouting": {
         "bank": {
           "name": "",
@@ -60,7 +60,7 @@
           "memo": ""
         },
         "wallet": {
-          "address": "0x67c95F622D910E63DbE237eAFB9fe807fa5D6264",
+          "address": "0x000",
           "chainId": "8453",
           "chainName": "Base",
           "rpc": ""
@@ -74,13 +74,13 @@
         "city": "Zug",
         "country": "CH",
         "extendedAddress": "",
-        "postalCode": "6300",
+        "postalCode": "REDACTED",
         "stateProvince": "",
-        "streetAddress": "Bahnhofstrasse 20"
+        "streetAddress": "Bahnh 20"
       },
       "contactInfo": {
         "tel": "",
-        "email": "billing@powerhouse.inc"
+        "email": "REDACTED"
       },
       "country": "CH",
       "paymentRouting": {
