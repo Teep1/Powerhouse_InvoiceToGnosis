@@ -1,0 +1,160 @@
+{
+  "global": {
+    "invoiceNo": "2025-0001",
+    "dateIssued": "2025-01-31",
+    "dateDue": "2025-03-02",
+    "dateDelivered": "",
+    "status": "DRAFT",
+    "refs": [],
+    "issuer": {
+      "id": "",
+      "name": "ACME",
+      "address": {
+        "city": "Gent",
+        "country": "BE",
+        "extendedAddress": "",
+        "postalCode": "9000",
+        "stateProvince": "",
+        "streetAddress": "Korenmarkt 42"
+      },
+      "contactInfo": {
+        "tel": "",
+        "email": "wouter@powerhouse.inc"
+      },
+      "country": "BE",
+      "paymentRouting": {
+        "bank": {
+          "name": "",
+          "address": {
+            "streetAddress": "",
+            "extendedAddress": "",
+            "city": "",
+            "postalCode": "",
+            "country": "",
+            "stateProvince": ""
+          },
+          "ABA": "",
+          "BIC": "",
+          "SWIFT": "",
+          "accountNum": "",
+          "accountType": "CHECKING",
+          "beneficiary": "",
+          "intermediaryBank": {
+            "name": "",
+            "address": {
+              "streetAddress": "",
+              "extendedAddress": "",
+              "city": "",
+              "postalCode": "",
+              "country": "",
+              "stateProvince": ""
+            },
+            "ABA": "",
+            "BIC": "",
+            "SWIFT": "",
+            "accountNum": "",
+            "accountType": "CHECKING",
+            "beneficiary": "",
+            "memo": ""
+          },
+          "memo": ""
+        },
+        "wallet": {
+          "address": "0x67c95F622D910E63DbE237eAFB9fe807fa5D6264",
+          "chainId": "8453",
+          "chainName": "Base",
+          "rpc": ""
+        }
+      }
+    },
+    "payer": {
+      "id": "",
+      "name": "Powerhouse Genesis",
+      "address": {
+        "city": "Zug",
+        "country": "CH",
+        "extendedAddress": "",
+        "postalCode": "6300",
+        "stateProvince": "",
+        "streetAddress": "Bahnhofstrasse 20"
+      },
+      "contactInfo": {
+        "tel": "",
+        "email": "billing@powerhouse.inc"
+      },
+      "country": "CH",
+      "paymentRouting": {
+        "bank": {
+          "name": "",
+          "address": {
+            "streetAddress": "",
+            "extendedAddress": "",
+            "city": "",
+            "postalCode": "",
+            "country": "",
+            "stateProvince": ""
+          },
+          "ABA": "",
+          "BIC": "",
+          "SWIFT": "",
+          "accountNum": "",
+          "accountType": "CHECKING",
+          "beneficiary": "",
+          "intermediaryBank": {
+            "name": "",
+            "address": {
+              "streetAddress": "",
+              "extendedAddress": "",
+              "city": "",
+              "postalCode": "",
+              "country": "",
+              "stateProvince": ""
+            },
+            "ABA": "",
+            "BIC": "",
+            "SWIFT": "",
+            "accountNum": "",
+            "accountType": "CHECKING",
+            "beneficiary": "",
+            "memo": ""
+          },
+          "memo": ""
+        },
+        "wallet": {
+          "rpc": "",
+          "chainName": "",
+          "chainId": "",
+          "address": ""
+        }
+      }
+    },
+    "currency": "USDS",
+    "lineItems": [
+      {
+        "id": "1",
+        "description": "Consultancy fee",
+        "taxPercent": 0,
+        "quantity": 1,
+        "currency": "USDS",
+        "unitPriceTaxExcl": 5000,
+        "unitPriceTaxIncl": 5000,
+        "totalPriceTaxExcl": 5000,
+        "totalPriceTaxIncl": 5000
+      },
+      {
+        "id": "2",
+        "description": "Flight BRU <> BKK",
+        "taxPercent": 0,
+        "quantity": 1,
+        "currency": "USDS",
+        "unitPriceTaxExcl": 2000,
+        "unitPriceTaxIncl": 2000,
+        "totalPriceTaxExcl": 2000,
+        "totalPriceTaxIncl": 2000
+      }
+    ],
+    "totalPriceTaxExcl": 7000,
+    "totalPriceTaxIncl": 7000
+  },
+  "local": {}
+}
