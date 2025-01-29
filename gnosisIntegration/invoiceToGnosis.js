@@ -40,7 +40,7 @@ async function runTest() {
         rpc: 'https://base.llamarpc.com',
         chainName: 'Base',
         chainId: '8453',
-        address: '0x000' // Safe address
+        address: '0x1FB6bEF04230d67aF0e3455B997a28AFcCe1F45e' // Safe address
     }
 
     const currency = currentState.global.currency
